@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #1f1f1f;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 30px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.hero-img img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.btn-primary {
+    background: white;
+    color: #458ff6;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: solid 1px #458ff6;
+}
+
+.btn-primary:hover {
+    background: #458ff6;
+    color: white;
+}
+
+.services {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    color: #777;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.card {
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+
+.card.gray {
+    background-color: #f5f5f5;
+}
+
+.card.gray p {
+    color: black;
+}
+
+.card.gray h3 {
+    color: black;
+}
+
+.card.gray {
+    background-color: #f5f5f5;
+}
+
+.card.gray:hover,
+.card.gray p:hover {
+    color: white;
+    background-color: #458ff6;
+}
+
+.card.gray:hover {
+    background-color: #458ff6;
+}
+
+.btn-outline {
+    border: 1px solid #458ff6;
+    color: #458ff6;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.btn-outline:hover {
+    background: #458ff6;
+    color: white;
+}
+
+.info {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-section img {
+    width: 50%;
+}
+
+.info-text {
+    max-width: 500px;
+}
+
+.info-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    color: #555;
+    margin-bottom: 30px;
+}
